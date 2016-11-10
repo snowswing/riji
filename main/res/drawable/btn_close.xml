@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ /*********************************************************************
+ * Copyright 2011 Sony Ericsson Mobile Communications AB.            *
+ * Copyright 2012 Sony Mobile Communications AB.                     *
+ * All rights, including trade secret rights, reserved.              *
+ *********************************************************************/
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/btn_close_pressed" />
+    <item android:state_focused="true"
+        android:drawable="@drawable/btn_close_focused" />
+    <item
+         android:drawable="@drawable/btn_close_normal" />
+</selector>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+     Copyright 2010 Sony Ericsson Mobile Communications AB. All rights reserved.
+     Copyright 2013 Sony Mobile Communications AB. All rights reserved.
+
+     This file contains confidential and proprietary information of Sony Ericsson
+     Mobile Communications AB.
+
+     NOTE: This file contains code from:
+
+     /packages/apps/Contacts/src/com/android/contacts/res/layout/edit_field_list.xml
+
+     taken from The Android Open Source Project, which is licensed under the Apache
+     License, Version 2.0, which may be accessed at:
+
+         http://www.apache.org/licenses/LICENSE-2.0.
+
+     Notwithstanding the foregoing, the entire contents of this file is licensed
+     under the Sony Ericsson Mobile Communications AB's End User License Agreement
+     ("EULA"). Any use of this file is subject to the terms of the EULA.
+-->
+
+<!-- Layout to contain a list of fields in the contact editor. -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editors"
+    android:layout_width="0dip"
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" />

@@ -1,0 +1,14 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">riji</string>
+    <string name="action_settings">Settings</string>
+    <string name="riji_data">Data</string>
+    <string name="body_part">Pain part</string>
+    <string name="pain_level">Pain Level</string>
+    <string name="save">save</string>
+    <string name="cancel">cancel</string>
+    <string name="add_new_entry_for_section" xliff:restype="x-ANDROID/LIST/SETTINGS/LARGE">Add new</string>
+    <string name="delete_field_button_txt" xliff:restype="x-GENERIC/BODY/SMALL/V">Delete field</string>
+    <string name="title_activity_edit">EditActivity</string>
+
+    <string name="hold_time_set_suc_text">rrrrrrr</string>
+</resources>

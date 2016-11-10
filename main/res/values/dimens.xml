@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- edit_kind_title.xml -->
+    <dimen name="edit_kind_title_margin_start">3dp</dimen>
+    <!-- Bottom margin for section layout  -->
+    <dimen name="raw_contact_sect_fields_margin_bottom">16dip</dimen>
+    <!-- Size of the expander and delete buttons in Add/Edit contact  -->
+    <dimen name="raw_contact_action_button_width">45dip</dimen>
+    <!-- Minimum height of a row in the Editor -->
+    <dimen name="editor_min_line_item_height">48dip</dimen>
+</resources>
