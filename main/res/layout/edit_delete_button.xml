@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+     Copyright 2010 Sony Ericsson Mobile Communications AB. All rights reserved.
+     Copyright 2013 Sony Mobile Communications AB. All rights reserved.
+
+     This file contains confidential and proprietary information of Sony Ericsson
+     Mobile Communications AB.
+
+     NOTE: This file contains code from:
+
+     /packages/apps/Contacts/src/com/android/contacts/res/layout/edit_delete_button.xml
+
+     taken from The Android Open Source Project, which is licensed under the Apache
+     License, Version 2.0, which may be accessed at:
+
+         http://www.apache.org/licenses/LICENSE-2.0.
+
+     Notwithstanding the foregoing, the entire contents of this file is licensed
+     under the Sony Ericsson Mobile Communications AB's End User License Agreement
+     ("EULA"). Any use of this file is subject to the terms of the EULA.
+-->
+
+<!-- "Delete field" button in the contact editor. -->
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/raw_contact_action_button_width"
+    android:layout_height="@dimen/editor_min_line_item_height"
+    android:focusable="true"
+    android:descendantFocusability="blocksDescendants"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_gravity="top">
+    <ImageView
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/btn_close"
+        android:contentDescription="@string/delete_field_button_txt" />
+</FrameLayout>

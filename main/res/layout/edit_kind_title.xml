@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/edit_kind_title_margin_start"
+    android:layout_marginLeft="@dimen/edit_kind_title_margin_start"
+    android:focusable="false">
+
+    <TextView
+      android:id="@+id/kind_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.Small"
+        android:gravity="bottom|center_vertical"/>
+</FrameLayout>
